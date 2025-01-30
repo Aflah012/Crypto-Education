@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BitcoinExplained.io</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>BitcoinExplained.io</h1>
+    <p>Belajar Bitcoin dengan Mudah dan Interaktif!</p>
+  </header>
+
+  <main>
+    <!-- Bagian 1: Apa itu Bitcoin? -->
+    <section id="what-is-bitcoin">
+      <h2>Apa itu Bitcoin?</h2>
+      <p>Bitcoin adalah uang digital terdesentralisasi yang pertama di dunia.</p>
+      <button id="timeline-button">Lihat Timeline Uang</button>
+      <div id="timeline" class="hidden">
+        <p>Barter → Emas → Uang Kertas → Bitcoin</p>
+      </div>
+    </section>
+
+    <!-- Bagian 2: Harga Bitcoin Real-Time -->
+    <section id="bitcoin-price">
+      <h2>Harga Bitcoin Hari Ini</h2>
+      <p>1 BTC = <span id="btc-price">Loading...</span></p>
+    </section>
+
+    <!-- Bagian 3: Simulasi Blockchain -->
+    <section id="blockchain-simulation">
+      <h2>Simulasi Blockchain</h2>
+      <p>Klik tombol di bawah untuk "menambang" blok baru:</p>
+      <button id="mine-block">Tambang Blok</button>
+      <div id="blockchain"></div>
+    </section>
+
+    <!-- Bagian 4: Kuis Interaktif -->
+    <section id="quiz">
+      <h2>Kuis Bitcoin</h2>
+      <p>Siapa pencipta Bitcoin?</p>
+      <button id="answer1">Satoshi Nakamoto</button>
+      <button id="answer2">Elon Musk</button>
+      <p id="quiz-result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BitcoinExplained.io</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

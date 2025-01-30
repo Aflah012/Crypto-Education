@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+#blockchain {
+  margin-top: 20px;
+}
+
+.block {
+  background: #ddd;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
